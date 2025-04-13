@@ -4,10 +4,10 @@ import java.io.Serializable;
 import java.util.Date;
 import java.util.Objects;
 
-public class Seller implements Serializable{
-	
+public class Seller implements Serializable {
+
 	private static final long serialVersionUID = 1L;
-	
+
 	private Integer id;
 	private String name;
 	private String email;
@@ -61,6 +61,10 @@ public class Seller implements Serializable{
 
 	public Double getBaseSalary() {
 		return baseSalary;
+	}
+
+	public void setBaseSalary(Double baseSalary) {
+		this.baseSalary = baseSalary;
 	}
 
 	public Department getDepartment() {
